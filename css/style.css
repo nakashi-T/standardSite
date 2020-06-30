@@ -349,9 +349,21 @@ a:link, a:visited, a:hover, a:active {
   padding-left: 10px;
   background: url('../images/arrow.gif') no-repeat left center;
 }
-.documents a:hover {
-  text-decoration: underline;
+.documents a {
+  display: inline-block;
 }
+.documents a::after {
+  content: '';
+  display: block;
+  width: 0;
+  margin: 3px auto 0;
+  border-bottom: 1px solid #d03c56;
+  transition: width 0.3s ease-in-out;
+}
+.documents a:hover::after {
+  width: 100%;
+}
+
 .search-box {
   padding: 15px;
   background-color: #ccc;
