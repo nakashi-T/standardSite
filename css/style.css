@@ -340,6 +340,7 @@ a:link, a:visited, a:hover, a:active {
   border-left: 5px solid #d03c56;
   font-size: 1.4rem;
   line-height: 1.2;
+  cursor: pointer;
 }
 .documents > li + li {
   margin-top: 25px;
