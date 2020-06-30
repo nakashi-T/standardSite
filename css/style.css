@@ -37,6 +37,10 @@ a:link, a:visited, a:hover, a:active {
   padding: 28px 0 10px;
   background: url(../images/bg-header.gif) repeat-x;
   box-shadow: 0 0 10px 1px #e3e3e3;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
 .logo {
   width: 225px;
@@ -81,6 +85,8 @@ a:link, a:visited, a:hover, a:active {
 .wrapper {
   width: 970px;
   margin: 30px auto 40px;
+  position: relative;
+  top: 129px;
 }
 /* メイン領域 */
 .main {
@@ -377,6 +383,8 @@ a:link, a:visited, a:hover, a:active {
   padding: 20px 0 30px;
   background: #2d3d54 url('../images/bg-footer.gif');
   color: #fff;
+  position: relative;
+  top: 129px;
 }
 .horizontal-list {
   width: 970px;
